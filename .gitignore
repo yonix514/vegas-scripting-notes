@@ -1,0 +1,35 @@
+# Compilation VEGAS : sources seulement
+*.dll
+*.exe
+*.pdb
+bin/
+obj/
+
+# Dumps d'API generes localement (volumineux, propres a chaque installation)
+*_api_dump.txt
+*_api_*.txt
+*.dump.txt
+
+# Projets VEGAS
+*.veg
+*.veg.bak
+*.vf
+
+# Rapports de script
+rapports/
+*.log
+
+# Systeme / editeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Secrets : JAMAIS dans ce depot
+.env
+.env.*
+*.credentials
+identifiants.yaml
+secrets.*
